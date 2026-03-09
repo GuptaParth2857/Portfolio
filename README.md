@@ -6,7 +6,7 @@ My first portfolio website - A responsive web development project built with HTM
 A clean, responsive portfolio website showcasing my skills, projects, and journey as a web developer. Built from scratch using HTML, CSS, and JavaScript.
 
 ## 🚀 Live Demo
-[View Live Site](https://your-netlify-link.netlify.app) *[Netlify link daal dena deploy ke baad]*
+[View Live Site](https://parthguptaportfolio-2026.netlify.app) *[Netlify link daal dena deploy ke baad]*
 
 ## ✨ Features
 - ✅ Fully Responsive Design
