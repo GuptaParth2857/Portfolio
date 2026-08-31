@@ -263,3 +263,13 @@ body {
 .animate-pulse-glow {
   animation: pulse-glow 2.6s ease-in-out infinite;
 }
+
+/* ---------- Mobile performance: drop heavy GPU animations ---------- */
+
+@media (max-width: 767px) {
+  .animate-drift-a,
+  .animate-drift-b,
+  .animate-drift-c {
+    animation: none;
+  }
+}

@@ -7,6 +7,7 @@ export default function SmoothScroll({ children }: { children: ReactNode }) {
   const rafRef = useRef<number | null>(null);
 
   useEffect(() => {
+    if (window.matchMedia("(pointer: coarse)").matches) return;
     const lenis = new Lenis({
       lerp: 0.09,
       smoothWheel: true,
